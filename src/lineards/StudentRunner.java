@@ -15,12 +15,15 @@ public class StudentRunner {
 		}
 		
 		StudentDetails student1 = new StudentDetails("Nandhan",marks);
+		StudentDetails student2 = new StudentDetails("Varma",marks);
 		
 		System.out.println(student1.getNumberOfMarks());
 		System.out.println(student1.getSumOfMarks());
 		System.out.println(student1.getAverageMarks());
 		System.out.println(student1.maximumMark());
 		System.out.println(student1.minimumMark());
+		
+		System.out.println(student2.getNumberOfMarks());
 	}
 
 }
